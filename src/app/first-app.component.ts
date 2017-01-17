@@ -6,10 +6,7 @@ import {Component} from '@angular/core';
 <h1>Root component</h1>
 <fa-databinding></fa-databinding>
 `,
-  styles: [`
-    h1 {
-      color: red;
-}`]
+  styles: [``]
 })
 export class AppComponent {
 
