@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppComponent } from './app.component';
+import { AppComponent } from './first-app.component';
+import { DatabindingComponent } from './databinding/databinding.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DatabindingComponent,
+
   ],
   imports: [
     BrowserModule,
